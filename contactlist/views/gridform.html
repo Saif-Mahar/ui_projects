@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Bootstrap tutorials</title>
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+        
+    </head>
+    <body>
+
+        <form class="form-group">
+            <div class="row"><!--<tr>-->
+                <div class="col-md-2" data-toggle="tooltip" data-placement="top" title="this is where you type your first name"><!--<td>-->
+                    First Name
+                </div><!--</td>-->
+                <div class="col-md-3"><!--<td>-->
+                    <input type="text"  class="form-control" name="firstName" id="firstName" required>
+                </div><!--</td>-->
+            </div><!--</tr>-->
+            <div class="row">
+                <div class="col-md-2">
+                    Last Name
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" name="lastName" id="lastName">
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-2">
+                    Phone
+                </div>
+                <div class="col-md-3">
+                    <input type="number" class="form-control" name="phone" id="phone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    Email
+                </div>
+                <div class="col-md-3">
+                    <input type="email" class="form-control" name="email" id="email">
+                </div>
+            </div>
+        <button class="btn btn-success" id="add">Submit</button>
+        </form>
+        <div id="resuls">
+    <table class="table" id="resultTbl">
+      <caption>Results of the new entries</caption>
+        
+        <thead>
+          <tr>
+             <th>First Name</th> 
+             <th>Last Name</th> 
+             <th>Phone</th> 
+             <th>Email</th> 
+          </tr>
+        </thead>
+        
+        
+        <tbody>
+       <!-- we will append new contents in this table-->
+        </tbody>
+        
+    </table>
+</div>
+    
+        
+    </body>
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+       
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+            
+     <script type="text/javascript" src="/scripts/person.js"></script>
+            
+    <script type="text/javascript" src="/scripts/append.js"></script>
+            
+     <script type="text/javascript" src="/scripts/events.js"></script>
+
+
+</html>

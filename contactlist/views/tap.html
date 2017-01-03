@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Bootstrap tutorials</title>
+        <link rel="stylesheet" href="/node_modules/jquery-ui-dist/jquery-ui.css">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+       
+    </head>
+    <body>
+<!--        Date: <input type="text" id="datepicker">-->
+        <div id="tabs">
+            
+          <ul>
+             
+            <li><a href="#form-container">Form</a></li>
+            <li><a href="#result-container">Results</a></li>
+            <li><a href="#tabs3">Tab 3</a></li>
+            <li><a href="#tab4">Tab 4</a></li>
+              
+          </ul>
+            
+            <div id="tab4">
+                <p>stuff for tab 4</p>
+            </div>
+            
+ <div id="form-container">
+   <form class="form-group">
+     <div class="row"><!--<tr>-->
+            <div class="col-md-2" data-toggle="tooltip" data-placement="top" title="this is where you type your first name"><!--<td>-->
+                    First Name
+            </div><!--</td>-->
+         
+            <div class="col-md-3"><!--<td>-->
+                    <input type="text"  class="form-control" name="firstName" id="firstName" required>
+            </div><!--</td>-->
+         
+     </div><!--</tr>-->
+       
+         <div class="row">
+                <div class="col-md-2">
+                    Last Name
+                </div>
+             
+                <div class="col-md-3">
+                    <input type="text" class="form-control" name="lastName" id="lastName">
+                </div>
+         </div>
+       
+        <div class="row">
+            <div class="col-md-2">
+                    Phone 
+            </div>
+            
+            <div class="col-md-3">
+                    <input type="text" class="form-control" name="address" id="address">
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="col-md-2">
+                    Address
+            </div>
+            
+            <div class="col-md-3">
+                    <input type="text" class="form-control" name="address" id="address">
+            </div>
+        </div>
+       
+        <button class="btn btn-success" id="submit">Submit</button>
+ </form> 
+</div>
+          <div id="result-container">
+            The stuff for your table results goes here
+          </div>
+            
+          <div id="tabs3">
+            <p>tab 3 contents
+                Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+            <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+          </div>
+            
+        </div>
+    </body>
+    <script type="text/javascript"src="/node_modules/jquery/dist/jquery.js"></script> 
+    <script type="text/javascript" src ="/node_modules/jquery-ui-dist/jquery-ui.js"> </script>
+    <script type = "text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type ="text/javascript" src ="/scripts/tap.js"></script>
+
+
+</html>
